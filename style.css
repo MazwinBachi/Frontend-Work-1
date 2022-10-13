@@ -25,7 +25,7 @@ body{
     margin-top: 30px;
 }
 .lfhead{
-    width: 350px;
+    width: 80%;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -33,12 +33,12 @@ span{
     color: rgb(147, 64, 163);
 }
 .lfpara{
-    width: 350px;
+    width: 80%;
     color: rgb(206, 207, 212);
     font-size: 14px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .lftable{
-    width: 360px;
+    width: 80%;
     margin-top: 30px;
 }
 tr{
@@ -62,5 +62,50 @@ img{
     border-radius: 10px;
     width: 50%;
 }
+.tab{
+    color: white;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.mar{
+    margin: 0;
+}
 
+
+
+
+
+@media screen and (max-width: 700px){
+    .main-body{
+        width: 80%;
+        height: 95%;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .right{
+        width: 100%;
+        
+    }
+    .left{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    
+    }
+    .lfhead{
+        margin-top: -20px;
+    }
+    
+
+    
+
+}
 
