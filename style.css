@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(7, 7, 27);
     margin: 0;
@@ -27,7 +28,7 @@ body{
 .lfhead{
     width: 80%;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: myFirstFont
 }
 span{
     color: rgb(147, 64, 163);
@@ -35,7 +36,7 @@ span{
 .lfpara{
     width: 80%;
     color: rgb(206, 207, 212);
-    font-size: 14px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px; font-family: myFirstFont
 }
 
 img{
@@ -61,7 +62,11 @@ img{
     margin: 0;
 }
 
-
+@font-face {
+    font-family: myFirstFont;
+    src: url(/font/LexendDeca-VariableFont_wght.ttf);
+    src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+  }
 
 
 
