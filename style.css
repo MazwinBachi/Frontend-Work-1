@@ -64,8 +64,7 @@ img{
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/font/LexendDeca-VariableFont_wght.ttf);
-    src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
   }
 
 
